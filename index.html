@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ZZ Security Institute offers ethical hacking, cyber security, web hacking, mobile security, and red team training in Pakistan. Join expert-led courses and apply now.">
+  <meta name="keywords" content="ZZ Security, cyber security institute, ethical hacking course, cybersecurity training Pakistan, web hacking course, red team training, ethical hacking institute">
+  <meta name="author" content="ZZ Security Institute">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#050508">
+  <meta property="og:title" content="ZZ Security Institute | Cyber Security & Ethical Hacking Courses">
+  <meta property="og:description" content="Learn ethical hacking, web security, mobile security, and red team skills with ZZ Security Institute in Pakistan.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://zzsecurity.dev/og-image.png">
+  <meta property="og:url" content="https://zzsecurity.dev/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ZZ Security Institute | Cyber Security & Ethical Hacking Courses">
+  <meta name="twitter:description" content="Professional cyber security training and ethical hacking courses in Pakistan.">
+  <link rel="canonical" href="https://zzsecurity.dev/">
+  <title>ZZ Security Institute | Cyber Security & Ethical Hacking Courses</title>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    window.__SUPABASE_CONFIG__ = {
+      url: "https://advdqdcxgvlkhvrnwskd.supabase.co",
+      anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFkdmRxZGN4Z3Zsa2h2cm53c2tkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU4MzYxNzAsImV4cCI6MjEwMTQxMjE3MH0.q7k8OsYe30wDIpAkCFyZpXtWihJKN0su7i4oLl6_C3c"
+    };
+  </script>
+  <style>
+    body{margin:0;background:#050508;color:#fff;min-height:100vh;}
+    #root{min-height:100vh;}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    fetch('./zz-project.jsx?v=' + Date.now(), { cache: 'no-store' })
+      .then(res => res.text())
+      .then(src => {
+        const transformed = Babel.transform(src, { presets: ['env', ['react', { runtime: 'classic' }]] }).code;
+        eval(transformed);
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(React.createElement(App));
+      })
+      .catch(err => {
+        document.body.innerHTML = '<pre style="color:#fff;padding:20px;white-space:pre-wrap;">' + err.toString() + '</pre>';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>
